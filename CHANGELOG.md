@@ -30,7 +30,13 @@ All notable changes to apen-icons. This project follows [semantic versioning](ht
 
 ### Changed
 
-- README: new banner, plus Styling, Categories and TypeScript sections.
+- README and banner show the new icon count.
+
+## 1.2.1
+
+### Changed
+
+- README: new banner, plus Styling, Categories and TypeScript sections. No code changes.
 
 ## 1.2.0
 
