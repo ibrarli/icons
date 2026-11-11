@@ -1,5 +1,7 @@
 <p align="center">
-  <strong>apen-icons</strong> by <a href="https://www.apenapps.com">Apen Apps</a>
+  <a href="https://www.apenapps.com">
+    <img alt="apen-icons by Apen Apps: 290+ rounded React icons on one 24px grid with one 2px stroke" src="https://raw.githubusercontent.com/ibrarli/icons/main/.github/assets/banner.svg" width="100%">
+  </a>
 </p>
 
 <p align="center">
@@ -12,6 +14,8 @@
 <p align="center">
   <a href="#quick-start">Quick start</a> ·
   <a href="#props">Props</a> ·
+  <a href="#styling">Styling</a> ·
+  <a href="#categories">Categories</a> ·
   <a href="#design-rules">Design rules</a> ·
   <a href="#adding-an-icon">Adding an icon</a> ·
   <a href="https://www.apenapps.com">apenapps.com</a>
@@ -29,11 +33,14 @@ Apen Icons is a set of 290+ rounded React icons. Every icon is drawn on the same
 - **Tree-shakeable:** each icon is its own named export. Importing `Home` adds less than 1 KB.
 - **Easy to style:** icons draw with `currentColor`, so `className="text-primary"` or the `color` prop just works.
 - **Accessible:** decorative by default (`aria-hidden`). Pass `title` and the icon is announced with that name.
+- **Typed:** written in TypeScript. Every icon shares one `IconProps` type, and your editor shows a preview on hover.
 - **Made for [Apen UI](https://github.com/ibrarli/apen-ui):** same rounded look, and the default icon set for its components.
 
-Pairs with [create-apen](https://www.npmjs.com/package/create-apen), which scaffolds full-stack projects.
+Built by [Apen Apps](https://www.apenapps.com). Pairs with [create-apen](https://www.npmjs.com/package/create-apen), which scaffolds full-stack projects.
 
 ## Quick start
+
+You need React 19.
 
 ```bash
 npm install apen-icons
@@ -76,7 +83,83 @@ import bellUrl from 'apen-icons/icons/bell.svg';
 | `title` | `string` | | Accessible name. Without it the icon is hidden from screen readers. |
 | `...props` | `SVGProps` | | `className`, `style`, `onClick` and any other SVG attribute. |
 
-Every icon also gets the classes `apen-icon` and `apen-icon-<name>` (for example `apen-icon-arrow-right`) for global styling.
+## Styling
+
+Icons take their colour from the text around them, so they follow your theme without any setup:
+
+```tsx
+<button className="text-primary hover:text-primary/80">
+  <Download className="size-4" /> Export
+</button>
+```
+
+Every icon also gets the classes `apen-icon` and `apen-icon-<name>` (for example `apen-icon-arrow-right`), so you can style all of them, or one of them, from CSS:
+
+```css
+.apen-icon { stroke-width: 1.75; }
+.apen-icon-heart { color: #f15a29; }
+```
+
+A 2px stroke looks heavy on a large icon and thin on a small one, because the stroke scales with the icon. `absoluteStrokeWidth` keeps it at the same screen thickness:
+
+```tsx
+<Sparkles size={48} absoluteStrokeWidth />   {/* 2px lines, not 4px */}
+```
+
+Solid icons end in `Fill` and take the same props:
+
+```tsx
+<Star /> <StarFill color="#f5a524" />
+```
+
+An icon on its own, with no visible label, needs a name for screen readers:
+
+```tsx
+<button aria-label="Delete"><Trash /></button>   {/* the button is named, the icon stays hidden */}
+<CircleCheck title="Payment received" />         {/* the icon is named */}
+```
+
+## Categories
+
+291 icons in 20 categories. Search and filter them on the website (`npm run dev`).
+
+| Category | Icons | Category | Icons |
+| --- | --- | --- | --- |
+| Arrows | 42 | Weather | 12 |
+| Actions | 29 | Text | 10 |
+| Layout | 26 | Users | 10 |
+| Media | 20 | Communication | 9 |
+| Security | 20 | Time | 8 |
+| Files | 18 | Charts | 7 |
+| Social | 18 | Commerce | 7 |
+| Devices | 15 | Design | 7 |
+| Shapes | 13 | Development | 4 |
+| Alerts | 12 | Maps | 4 |
+
+The category, search tags and first version of every icon are in `apen-icons/meta.json`, which is handy for building your own icon picker:
+
+```ts
+import meta from 'apen-icons/meta.json';
+
+meta['bell']; // { category: 'Alerts', tags: [...], since: '1.2.0' }
+```
+
+## TypeScript
+
+```tsx
+import { createIcon, type ApenIcon, type IconProps } from 'apen-icons';
+
+// Accept any icon as a prop
+function NavItem({ icon: Icon, label }: { icon: ApenIcon; label: string }) {
+  return <a><Icon size={18} /> {label}</a>;
+}
+
+// Make your own icon that behaves like the rest of the set
+export const Logo = createIcon('Logo', [
+  ['circle', { cx: '12', cy: '12', r: '10' }],
+  ['path', { d: 'M8 12h8' }],
+]);
+```
 
 ## Design rules
 
@@ -92,7 +175,7 @@ Every icon also gets the classes `apen-icon` and `apen-icon-<name>` (for example
 
 ## Upgrading from 1.1.x
 
-Version 1.2.0 redraws every icon on the 24px grid, so they now share one size and one stroke. All existing names still work, so nothing breaks. Some duplicates were merged; the old names remain as **deprecated aliases**, and your editor will strike them through:
+Version 1.2.0 redraws every icon on the 24px grid, so they now share one size and one stroke. All existing names still work, so nothing breaks. Some duplicates were merged; the old names remain as **deprecated aliases** until 2.0, and your editor will strike them through:
 
 | Old name | Use instead |
 | --- | --- |
@@ -112,6 +195,8 @@ Version 1.2.0 redraws every icon on the 24px grid, so they now share one size an
 Icons that used to be solid (`Search`, `Settings`, `Folder`, `Play`, `Pause`, `Bookmark` and others) are now outlined, like the rest of the set. Use `PlayFill`, `PauseFill`, `BookmarkFill`, `StarFill`, `HeartFill`, `SparkleFill` or `PaletteFill` when you want a solid icon.
 
 `Bolt` is now a lightning bolt, to match its `flash` / `energy` tags.
+
+The full list of changes is in the [changelog](CHANGELOG.md).
 
 ## Adding an icon
 
