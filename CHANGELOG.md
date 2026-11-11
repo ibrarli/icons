@@ -2,6 +2,12 @@
 
 All notable changes to apen-icons. This project follows [semantic versioning](https://semver.org).
 
+## 1.2.1
+
+### Changed
+
+- README: new banner, plus Styling, Categories and TypeScript sections. No code changes.
+
 ## 1.2.0
 
 The whole set is redrawn on one grid, and icons are now generated from SVG files.
@@ -31,6 +37,7 @@ Duplicates were merged. The old names still work as aliases and will be removed 
 ### Fixed
 
 - `react-router-dom` is no longer installed with the library.
+- The CommonJS entry point uses a `.cjs` extension so `require('apen-icons')` loads the icons correctly.
 
 ### Internal
 

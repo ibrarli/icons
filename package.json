@@ -1,6 +1,6 @@
 {
   "name": "apen-icons",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Rounded, consistent React icons on a 24px grid by Apen Apps. 290+ icons, one stroke style, fully tree-shakeable.",
   "keywords": [
     "icons",
@@ -24,14 +24,14 @@
   },
   "type": "module",
   "sideEffects": false,
-  "main": "./dist/apen-icons.umd.js",
+  "main": "./dist/apen-icons.umd.cjs",
   "module": "./dist/apen-icons.es.js",
   "types": "./dist/index.d.ts",
   "exports": {
     ".": {
       "types": "./dist/index.d.ts",
       "import": "./dist/apen-icons.es.js",
-      "require": "./dist/apen-icons.umd.js"
+      "require": "./dist/apen-icons.umd.cjs"
     },
     "./icons/*": "./icons/*",
     "./meta.json": "./icons/meta.json"

@@ -22,7 +22,7 @@ export default defineConfig({
       entry: resolve(__dirname, 'src/index.ts'),
       name: 'apenIcons',
       formats: ['es', 'umd'],
-      fileName: (format) => `apen-icons.${format}.js`,
+      fileName: (format) => `apen-icons.${format}.${format === 'umd' ? 'cjs' : 'js'}`,
     },
     rollupOptions: {
       external: ['react', 'react-dom', 'react/jsx-runtime'],
