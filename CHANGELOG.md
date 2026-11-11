@@ -2,11 +2,35 @@
 
 All notable changes to apen-icons. This project follows [semantic versioning](https://semver.org).
 
-## 1.2.1
+## 1.3.0
+
+100 new icons, for 391 in total. Nothing is renamed or removed.
+
+### Added
+
+- **Actions:** `CheckCheck`, `MousePointer`, `Move`, `RotateCcw`, `RotateCw`, `ToggleLeft`, `ToggleRight`, `Unlink`
+- **Alerts:** `BadgeAlert`, `BellPlus`, `BellRing`, `OctagonAlert`
+- **Charts:** `AreaChart`, `BarChartHorizontal`, `Gauge`, `Presentation`
+- **Commerce:** `Banknote`, `Calculator`, `Coins`, `QrCode`, `ShoppingBasket`, `Store`, `Ticket`
+- **Communication:** `MailOpen`, `MessageSquareText`, `Messages`, `PhoneCall`, `PhoneIncoming`, `PhoneOff`, `PhoneOutgoing`
+- **Design:** `Contrast`, `Eraser`, `PenTool`, `Ruler`, `Wand`
+- **Development:** `Binary`, `Braces`, `GitCommit`, `GitFork`, `GitMerge`, `GitPullRequest`, `Workflow`
+- **Devices:** `BatteryCharging`, `BatteryLow`, `HardDrive`, `Plug`, `Speaker`, `Watch`
+- **Files:** `FileCode`, `FileImage`, `FileMinus`, `FileSearch`, `FolderCheck`, `FolderX`
+- **Layout:** `AppWindow`, `Kanban`, `LayoutTemplate`, `PanelBottom`, `PanelTop`
+- **Maps:** `Bike`, `Car`, `Locate`, `Mountain`, `Plane`, `Route`, `Train`
+- **Media:** `Disc`, `FastForward`, `Film`, `ImagePlus`, `ListMusic`, `Radio`, `Rewind`
+- **Security:** `KeyRound`, `ScanFace`, `ShieldOff`, `Siren`
+- **Shapes:** `Cube`, `Octagon`, `Pentagon`
+- **Social:** `Coffee`, `Crown`, `Medal`, `Rocket`
+- **Text:** `Heading`, `Pilcrow`, `Quote`, `WrapText`
+- **Time:** `AlarmClock`, `CalendarClock`, `CalendarDays`, `CalendarMinus`
+- **Users:** `IdCard`, `UserLock`, `UserSearch`
+- **Weather:** `CloudLightning`, `CloudSnow`, `CloudSun`, `Sunrise`, `Sunset`
 
 ### Changed
 
-- README: new banner, plus Styling, Categories and TypeScript sections. No code changes.
+- README: new banner, plus Styling, Categories and TypeScript sections.
 
 ## 1.2.0
 
