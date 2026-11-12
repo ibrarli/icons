@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-label="apen-icons by Apen Apps: 500 rounded React icons on one 24px grid with one 2px stroke.">
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="640" viewBox="0 0 1280 640" role="img" aria-label="apen-icons by Apen Apps: 600 rounded React icons on one 24px grid with one 2px stroke.">
 <title>apen-icons by Apen Apps</title>
 <defs>
 <style>
@@ -54,7 +54,7 @@
   <text x="156" y="106" class="brand">Apen <tspan fill="url(#bar)">Apps</tspan></text>
 
   <text x="83" y="286" class="title" fill="url(#text)">apen-icons</text>
-  <text x="88" y="350" class="lead">500 rounded React icons</text>
+  <text x="88" y="350" class="lead">600 rounded React icons</text>
   <text x="88" y="390" class="sub">on one 24px grid, with one 2px stroke.</text>
 
   <g>

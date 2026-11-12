@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://www.apenapps.com">
-    <img alt="apen-icons by Apen Apps: 500 rounded React icons on one 24px grid with one 2px stroke" src="https://raw.githubusercontent.com/ibrarli/icons/main/.github/assets/banner.svg" width="100%">
+    <img alt="apen-icons by Apen Apps: 600 rounded React icons on one 24px grid with one 2px stroke" src="https://raw.githubusercontent.com/ibrarli/icons/main/.github/assets/banner.svg" width="100%">
   </a>
 </p>
 
@@ -27,7 +27,7 @@
 npm install apen-icons
 ```
 
-Apen Icons is a set of 500 rounded React icons. Every icon is drawn on the same 24px grid with the same 2px rounded stroke, so they sit together in buttons, menus and dashboards.
+Apen Icons is a set of 600 rounded React icons. Every icon is drawn on the same 24px grid with the same 2px rounded stroke, so they sit together in buttons, menus and dashboards.
 
 - **Consistent:** one grid, one stroke and one corner style. A build step checks every icon against these rules.
 - **Tree-shakeable:** each icon is its own named export. Importing `Home` adds less than 1 KB.
@@ -121,20 +121,20 @@ An icon on its own, with no visible label, needs a name for screen readers:
 
 ## Categories
 
-500 icons in 20 categories. Search and filter them on the website (`npm run dev`).
+600 icons in 20 categories. Search and filter them on the website (`npm run dev`).
 
 | Category | Icons | Category | Icons |
 | --- | --- | --- | --- |
-| Arrows | 49 | Communication | 22 |
-| Actions | 45 | Shapes | 21 |
-| Layout | 36 | Alerts | 20 |
-| Media | 34 | Commerce | 19 |
-| Files | 30 | Text | 19 |
-| Security | 28 | Design | 17 |
-| Devices | 27 | Development | 17 |
-| Social | 27 | Maps | 17 |
-| Weather | 23 | Time | 17 |
-| Charts | 15 | Users | 17 |
+| Social | 80 | Shapes | 22 |
+| Arrows | 49 | Users | 22 |
+| Media | 48 | Alerts | 21 |
+| Actions | 46 | Commerce | 20 |
+| Layout | 39 | Maps | 19 |
+| Communication | 37 | Text | 19 |
+| Files | 30 | Design | 18 |
+| Security | 29 | Time | 18 |
+| Devices | 28 | Development | 17 |
+| Weather | 23 | Charts | 15 |
 
 The category, search tags and first version of every icon are in `apen-icons/meta.json`, which is handy for building your own icon picker:
 

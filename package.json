@@ -1,7 +1,7 @@
 {
   "name": "apen-icons",
-  "version": "1.4.1",
-  "description": "Rounded, consistent React icons on a 24px grid by Apen Apps. 500 icons, one stroke style, fully tree-shakeable.",
+  "version": "1.5.0",
+  "description": "Rounded, consistent React icons on a 24px grid by Apen Apps. 600 icons, one stroke style, fully tree-shakeable.",
   "keywords": [
     "icons",
     "react",

@@ -2,6 +2,29 @@
 
 All notable changes to apen-icons. This project follows [semantic versioning](https://semver.org).
 
+## 1.5.0
+
+100 new social and app-style icons, for 600 in total. Nothing is renamed or removed.
+
+Includes heart, bookmark, star and chat-bubble variants (plus, minus, check, x, off), reply, repost and share actions, emoji faces, story ring, sticker, GIF, poll and podium, and filled "active tab" versions of `Bell`, `MessageCircle`, `MessageSquare`, `Send`, `ThumbsUp`, `ThumbsDown`, `User` and `Flame`.
+
+### Added
+
+- **Actions:** `SquarePen`
+- **Alerts:** `BellFill`
+- **Commerce:** `QrScan`
+- **Communication:** `Mailbox`, `MessageCircleCheck`, `MessageCircleFill`, `MessageCircleHeart`, `MessageCircleMore`, `MessageCircleOff`, `MessageCirclePlus`, `MessageCircleQuestion`, `MessageSquareFill`, `MessageSquareHeart`, `MessageSquareMore`, `MessageSquareOff`, `MessageSquareQuote`, `SendFill`, `SendHorizontal`
+- **Design:** `Feather`
+- **Devices:** `Signal`
+- **Layout:** `AppBadge`, `Apps`, `Grid3x3`
+- **Maps:** `Luggage`, `MapPinHeart`
+- **Media:** `Album`, `CameraOff`, `CameraPlus`, `Focus`, `Gif`, `Images`, `ListHeart`, `MicVocal`, `PhotoFilter`, `Polaroid`, `RadioTower`, `SquarePlay`, `Story`, `VideoPlus`
+- **Security:** `Incognito`
+- **Shapes:** `Infinity`
+- **Social:** `BadgeHeart`, `Balloon`, `BookHeart`, `BookmarkCheck`, `BookmarkHeart`, `BookmarkMinus`, `BookmarkOff`, `BookmarkPlus`, `BookmarkX`, `Bookmarks`, `Cards`, `Dice`, `Dumbbell`, `EmojiAngry`, `EmojiCool`, `EmojiLaugh`, `EmojiLove`, `EmojiPlus`, `EmojiSurprised`, `EmojiWink`, `FlagAlert`, `FlagOff`, `FlameFill`, `Glasses`, `Hand`, `HeartCheck`, `HeartHalf`, `HeartMinus`, `HeartOff`, `HeartPlus`, `HeartPulse`, `HeartX`, `Hearts`, `Newspaper`, `PartyPopper`, `Paw`, `Podium`, `Poll`, `Puzzle`, `Reply`, `ReplyAll`, `Repost`, `ShareNodes`, `ShareUp`, `StarHalf`, `StarOff`, `Stars`, `Sticker`, `ThumbsDownFill`, `ThumbsUpFill`, `Utensils`, `Vote`, `Wine`
+- **Time:** `CalendarHeart`
+- **Users:** `UserFill`, `UserHeart`, `UserSquare`, `UserVoice`, `UsersGroup`
+
 ## 1.4.1
 
 ### Fixed
