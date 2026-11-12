@@ -2,6 +2,14 @@
 
 All notable changes to apen-icons. This project follows [semantic versioning](https://semver.org).
 
+## 1.4.1
+
+### Fixed
+
+- Every cloud icon (`Cloud`, `CloudDownload`, `CloudUpload`, `CloudRain`, `CloudSnow`, `CloudLightning`, `CloudDrizzle`, `CloudFog`, `CloudSun`, `CloudMoon`) was clipped on its right edge. The cloud is redrawn so it fits inside the 24px grid.
+- `CloudMoon`: the moon no longer touches the cloud.
+- `Podcast` no longer touches the top edge.
+
 ## 1.4.0
 
 109 new icons, for 500 in total. Nothing is renamed or removed.
