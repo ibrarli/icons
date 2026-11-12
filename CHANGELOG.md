@@ -2,6 +2,33 @@
 
 All notable changes to apen-icons. This project follows [semantic versioning](https://semver.org).
 
+## 1.4.0
+
+109 new icons, for 500 in total. Nothing is renamed or removed.
+
+### Added
+
+- **Actions:** `ArchiveRestore`, `ClipboardList`, `ClipboardX`, `CopyCheck`, `Delete`, `FlipHorizontal`, `PinOff`, `Shrink`
+- **Alerts:** `BadgePlus`, `BadgeX`, `BellDot`, `BellMinus`
+- **Arrows:** `ArrowBigDown`, `ArrowBigLeft`, `ArrowBigRight`, `ArrowBigUp`, `CornerDownLeft`, `CornerUpRight`, `MoveDiagonal`
+- **Charts:** `CandlestickChart`, `DonutChart`, `GanttChart`, `ScatterChart`
+- **Commerce:** `BadgePercent`, `Barcode`, `CircleDollar`, `Landmark`, `PiggyBank`
+- **Communication:** `MailCheck`, `MailPlus`, `MailX`, `MessageSquarePlus`, `Rss`, `Voicemail`
+- **Design:** `Blend`, `Frame`, `Highlighter`, `PaintBucket`, `Stamp`
+- **Development:** `Bot`, `Brackets`, `Container`, `GitCompare`, `Network`, `SquareTerminal`
+- **Devices:** `Cast`, `Flashlight`, `MonitorSmartphone`, `Projector`, `Router`, `Webcam`
+- **Files:** `FileArchive`, `FileAudio`, `FileLock`, `FileVideo`, `FolderLock`, `FolderSearch`
+- **Layout:** `GalleryHorizontal`, `GalleryVertical`, `PictureInPicture`, `Rows`, `SquareSplitHorizontal`
+- **Maps:** `Bus`, `Fuel`, `MapPinOff`, `Ship`, `Signpost`, `Tent`
+- **Media:** `Aperture`, `AudioLines`, `Captions`, `CassetteTape`, `Clapperboard`, `Podcast`, `RepeatOne`
+- **Security:** `Fingerprint`, `ShieldBan`, `ShieldQuestion`, `Vault`
+- **Shapes:** `Cone`, `Cylinder`, `RectangleHorizontal`, `RectangleVertical`, `Squircle`
+- **Social:** `Cake`, `Gem`, `Ghost`, `HeartCrack`, `Pizza`
+- **Text:** `Indent`, `Outdent`, `Subscript`, `Superscript`, `TextCursor`
+- **Time:** `CalendarRange`, `CalendarSearch`, `ClockAlert`, `ClockPlus`, `TimerOff`
+- **Users:** `Contact`, `UserClock`, `UserCog`, `UserStar`
+- **Weather:** `CloudDrizzle`, `CloudFog`, `CloudMoon`, `Rainbow`, `Tornado`, `Waves`
+
 ## 1.3.0
 
 100 new icons, for 391 in total. Nothing is renamed or removed.
