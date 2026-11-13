@@ -38,7 +38,8 @@ const ELEMENTS = {
 const FILL_VALUES = ['none', 'currentColor'];
 const CATEGORIES = [
   'Actions', 'Alerts', 'Arrows', 'Charts', 'Commerce', 'Communication', 'Design', 'Development', 'Devices',
-  'Files', 'Layout', 'Maps', 'Media', 'Security', 'Shapes', 'Social', 'Text', 'Time', 'Users', 'Weather',
+  'Education', 'Files', 'Food', 'Health', 'Home', 'Layout', 'Maps', 'Media', 'Nature', 'Security', 'Shapes',
+  'Social', 'Text', 'Time', 'Tools', 'Users', 'Weather',
 ];
 
 const toPascal = (kebab) => kebab.split('-').map((part) => part[0].toUpperCase() + part.slice(1)).join('');

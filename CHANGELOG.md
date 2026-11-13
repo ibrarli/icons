@@ -2,6 +2,36 @@
 
 All notable changes to apen-icons. This project follows [semantic versioning](https://semver.org).
 
+## 1.6.0
+
+400 new icons, for 1,000 in total. Six new categories: Education, Food, Health, Home, Nature and Tools. Nothing is renamed or removed.
+
+### Added
+
+- **Actions:** `ArchiveX`, `BringToFront`, `CircleEllipsis`, `ClipboardCopy`, `ClipboardPaste`, `CopyPlus`, `CopyX`, `Group`, `Lasso`, `MousePointerClick`, `Power`, `Replace`, `SendToBack`, `TrashX`, `Ungroup`
+- **Arrows:** `ArrowBigDownDash`, `ArrowBigLeftDash`, `ArrowBigRightDash`, `ArrowBigUpDash`, `ArrowDownToDot`, `ArrowDownToLine`, `ArrowDownWideNarrow`, `ArrowLeftToLine`, `ArrowRightLeft`, `ArrowRightToLine`, `ArrowUpFromDot`, `ArrowUpFromLine`, `ArrowUpNarrowWide`, `ChevronsDownUp`, `ChevronsLeftRight`, `ChevronsRightLeft`, `CircleArrowOutUpRight`, `CornerDownRight`, `CornerLeftDown`, `CornerLeftUp`, `CornerRightDown`, `CornerRightUp`, `CornerUpLeft`, `Merge`, `Split`, `SquareArrowDown`, `SquareArrowLeft`, `SquareArrowRight`, `SquareArrowUp`, `SquareArrowUpRight`
+- **Charts:** `BarChartDecreasing`, `BarChartIncreasing`, `BarChartStacked`, `BubbleChart`, `ChartColumn`, `ChartSpline`, `RadarChart`, `WaterfallChart`
+- **Commerce:** `BadgeDollar`, `CirclePercent`, `Euro`, `GiftCard`, `PackagePlus`, `Pound`, `ReceiptPercent`, `Rupee`, `Scale`, `ShoppingBagPlus`, `ShoppingCartPlus`, `ShoppingCartX`, `Tags`, `TicketPercent`, `Yen`
+- **Communication:** `Antenna`, `MailMinus`, `MailQuestion`, `MailSearch`, `MailWarning`, `MegaphoneOff`, `MessageSquareCode`, `MessageSquareDashed`, `MessageSquareReply`, `MessageSquareWarning`, `MessageSquareX`, `PhoneForwarded`, `PhoneMissed`, `PhonePlus`, `SatelliteDish`
+- **Development:** `Blocks`, `BugOff`, `Command`, `Component`, `DatabasePlus`, `GitBranchPlus`, `GitCommitVertical`, `GitGraph`, `GitPullRequestClosed`, `GitPullRequestDraft`, `Parentheses`, `Regex`, `SquareCode`, `SquareFunction`, `Variable`
+- **Devices:** `BatteryFull`, `BatteryWarning`, `BluetoothOff`, `Cable`, `Cctv`, `CircuitBoard`, `Computer`, `Fan`, `HardDriveDownload`, `Headset`, `KeyboardOff`, `MemoryStick`, `MonitorCheck`, `MonitorOff`, `Nfc`, `PlugZap`, `Remote`, `SdCard`, `ServerOff`, `SignalLow`, `SmartphoneCharging`, `TabletSmartphone`, `TvMinimal`, `Usb`, `WifiLow`
+- **Education:** `Abacus`, `Atom`, `Backpack`, `BookCheck`, `BookMarked`, `BookPlus`, `Flask`, `GraduationCap`, `Library`, `Microscope`, `Pencil`, `School`
+- **Files:** `FileChart`, `FileClock`, `FileDown`, `FileHeart`, `FileJson`, `FilePen`, `FileQuestion`, `FileSpreadsheet`, `FileUp`, `FileWarning`, `Files`, `FolderClock`, `FolderDown`, `FolderHeart`, `FolderPen`, `FolderTree`, `FolderUp`, `Folders`, `Notebook`, `StickyNote`
+- **Food:** `Apple`, `Banana`, `Beer`, `Burger`, `Carrot`, `ChefHat`, `Cherry`, `Citrus`, `Cookie`, `CookingPot`, `Croissant`, `CupSoda`, `Donut`, `Drumstick`, `Egg`, `Fish`, `Grape`, `IceCream`, `Milk`, `Soup`
+- **Health:** `Accessibility`, `Ambulance`, `Bandage`, `Brain`, `BriefcaseMedical`, `Dna`, `FaceMask`, `Hospital`, `Kettlebell`, `Pill`, `PillBottle`, `Stethoscope`, `Syringe`, `Tooth`, `Virus`
+- **Home:** `AirVent`, `Armchair`, `Bath`, `Bed`, `Blinds`, `Broom`, `Candle`, `DoorClosed`, `DoorOpen`, `Fence`, `FireExtinguisher`, `Lamp`, `LampDesk`, `LightbulbOff`, `Microwave`, `PowerSocket`, `Refrigerator`, `ShowerHead`, `Sofa`, `WashingMachine`
+- **Layout:** `AlignHorizontalCenter`, `AlignVerticalCenter`, `Browser`, `Columns3`, `LayoutMasonry`, `LayoutPanelLeft`, `LayoutPanelTop`, `Maximize2`, `Minimize2`, `MoveHorizontal`, `MoveVertical`, `PanelLeftClose`, `PanelLeftOpen`, `PanelRightClose`, `PanelRightOpen`, `Rows3`, `ScanLine`, `SquareSplitVertical`, `TableColumns`, `TableRows`
+- **Maps:** `Anchor`, `Castle`, `Factory`, `Footprints`, `Helicopter`, `Hotel`, `MapPinCheck`, `MapPinPlus`, `MapPinX`, `Motorbike`, `MountainSnow`, `Parking`, `PlaneLanding`, `PlaneTakeoff`, `Sailboat`, `Scooter`, `TrafficLight`, `Tram`, `Warehouse`, `Waypoints`
+- **Media:** `Airplay`, `CircleDot`, `CirclePause`, `CirclePlay`, `CircleStop`, `Drum`, `Ear`, `EarOff`, `Guitar`, `HeadphonesOff`, `ImageDown`, `ImageMinus`, `ImageOff`, `ImageUp`, `ListVideo`, `MicPlus`, `MonitorPlay`, `MusicNote`, `MusicOff`, `MusicPlus`, `Piano`, `TvOff`, `TvRetro`, `Vibrate`, `VolumePlus`
+- **Nature:** `Acorn`, `Bird`, `Bone`, `Butterfly`, `Cactus`, `Cat`, `Clover`, `Comet`, `Dog`, `Eclipse`, `Flower`, `Mushroom`, `Orbit`, `Planet`, `Rabbit`, `Satellite`, `Shell`, `Snail`, `Sprout`, `Telescope`, `Tree`, `TreePine`, `Trees`, `Tulip`, `Turtle`, `Ufo`, `Wheat`
+- **Security:** `BadgeId`, `Crosshair`, `KeyOff`, `Password`, `Radar`, `ShieldEllipsis`, `ShieldHalf`, `ShieldLock`, `ShieldUser`, `Skull`
+- **Shapes:** `Asterisk`, `Capsule`, `Club`, `Ellipse`, `Heptagon`, `Parallelogram`, `PlusThick`, `Pyramid`, `Semicircle`, `Shapes`, `Spade`, `Sphere`, `Spiral`, `Trapezoid`, `TriangleRight`
+- **Text:** `Baseline`, `CaseLower`, `CaseSensitive`, `CaseUpper`, `Heading1`, `Heading2`, `Heading3`, `Languages`, `ListCollapse`, `ListEnd`, `ListFilter`, `ListMinus`, `ListPlus`, `ListTree`, `ListX`, `RemoveFormatting`, `SpellCheck`, `TextQuote`, `TextSearch`, `TextSelect`
+- **Time:** `AlarmClockCheck`, `AlarmClockOff`, `AlarmClockPlus`, `Calendar1`, `CalendarFold`, `CalendarOff`, `CalendarSync`, `ClockCheck`, `ClockOff`, `TimerReset`
+- **Tools:** `Anvil`, `Axe`, `BrickWall`, `Construction`, `Drill`, `Hammer`, `HardHat`, `Ladder`, `Magnet`, `Nut`, `Pickaxe`, `Pliers`, `Saw`, `Screw`, `Screwdriver`, `Shovel`, `TapeMeasure`, `Toolbox`, `TrafficCone`, `Wrench`
+- **Users:** `Baby`, `PersonStanding`, `Student`, `UserAlert`, `UserBan`, `UserCode`, `UserKey`, `UserOff`, `UserPin`, `UserQuestion`
+- **Weather:** `CloudAlert`, `CloudCheck`, `CloudHail`, `CloudOff`, `CloudSunRain`, `Cloudy`, `Droplets`, `Haze`, `SunDim`, `SunMoon`, `ThermometerSnowflake`, `ThermometerSun`, `UmbrellaOff`
+
 ## 1.5.0
 
 100 new social and app-style icons, for 600 in total. Nothing is renamed or removed.
